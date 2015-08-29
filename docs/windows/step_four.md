@@ -16,27 +16,27 @@ think of something to say. And you type a lot to get `whalesay` to talk.
 
 In this next section, you will improve the `whalesay` image by building a new version that "talks on its own" and requires fewer words to run.
 
-## Step 1: Open a Boot2Docker terminal 
+## Step 1: Open a Docker Quickstart Terminal 
 
 If you don't already have a terminal open, open one now:
 
-1. From the **Desktop** and locate the Boot2Docker icon.
+1. From the **Desktop** and locate the Docker Quickstart Terminal icon.
 
     ![Desktop](/windows/images/icon-set.png)
     
-2. Click the icon to launch a Boot2Docker terminal.
+2. Click the icon to launch a Docker Quickstart Terminal.
 
    Just leave the terminal open on your desktop, you'll be using it in a moment.
 
 
 ## Step 2. Write a Dockerfile
 
-In this step, you use the Windows Notepad applicatin to write a short
+In this step, you use the Windows Notepad application to write a short
 Dockerfile. A Dockerfile describes the software elements that make up an
 image. It isn't just elements though, a Dockerfile can describe what environment
 to use or what commands to run in the container. Your Dockerfile is going to be very short.
 
-1. Place your cursor at the prompt in the Boot2Docker terminal.
+1. Place your cursor at the prompt in the Docker Quickstart Terminal.
 
 2. Change to your Desktop.
 
@@ -46,7 +46,7 @@ to use or what commands to run in the container. Your Dockerfile is going to be 
 
         $ mkdir testdocker
         
-4. Change into the `tesetdocker` folder.
+4. Change into the `testdocker` folder.
 
         $ cd testdocker
 
@@ -133,7 +133,7 @@ current directory, and builds an image called `docker-whale` on your local
 machine. The command takes about a minute and its output looks really long and
 complex. In this section, you learn what each message means.
 
-First Docker checks to make sure it has the everything it needs to build. 
+First Docker checks to make sure it has everything it needs to build. 
   
     Sending build context to Docker daemon 158.8 MB
 
@@ -196,7 +196,7 @@ Finally, Docker finishes the build and reports its outcome.
 
 In this step, you verify the new images is on your computer and then you run your new image.
 
-1. If it isn't already there, place your cursor at the prompt in the Boot2Docker terminal window.
+1. If it isn't already there, place your cursor at the prompt in the Docker Quickstart Terminal window.
 
 2. Type `docker images` and press RETURN.
 
