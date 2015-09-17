@@ -68,11 +68,12 @@ If you don't already have a terminal open, open one now:
 
     The format for the login command is:
 
-        docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
+        docker login --username=yourhubusername --email=youremail@company.com
 
-    So, for example:
+    When prompted, enter your password and press enter. So, for example:
 
-        $ docker login --username=maryatdocker --password=uydfiad77fad --email=mary@docker.com
+        $ docker login --username=maryatdocker --email=mary@docker.com
+        Password:
         WARNING: login credentials saved in C:\Users\sven\.docker\config.json
         Login Succeeded
 
